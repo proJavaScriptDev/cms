@@ -1,0 +1,70 @@
+body {
+	font-family: monospace;
+}
+
+h1 {
+	text-align: center;
+	color: teal;
+}
+
+div#menu {
+	width: 20vw;
+	height: 100vh;
+	background-color: rgb(2, 85, 85);
+	color: white;
+	position: fixed;
+	left: 0;
+	font-size: 18px;
+	top: 0;
+	margin: none;
+	padding: none;
+}
+
+div#menu .group {
+	padding: none;
+	margin: none;
+	position: relative;
+}
+
+div#menu .link {
+	width: 100%;
+	padding: 5px 0;
+	margin: 10px 0px;
+	background-color: rgb(0, 46, 46);
+	text-align: center;
+}
+
+.link a {
+	color: white;
+	text-decoration: none;
+}
+
+.link a:hover {
+	text-decoration: underline;;-p;
+}
+
+button#create-post{
+    border: 1px solid rgb(204, 200, 200);
+    color: black;
+    display: block;
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: monospace;
+    cursor: pointer;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+button#create-post a{
+    color: black;
+    text-decoration: none;
+}
+
+button#create-post a:hover{
+    text-decoration: underline;
+}
+
+button#create-post:hover{
+    background-color: rgb(222, 224, 191);
+}
