@@ -1,0 +1,70 @@
+<%- include('includes/header.ejs') %>
+<%- include('includes/menu.ejs') %>
+<div class="main-container" id="cover">
+
+</div>
+<div id="popup">
+    <button class="add-el" id="close-popup" style="float: right;"><i class="fas fa-times"></i></button>
+    <h2>Add An Element</h2>
+    <br>
+    <div>
+        <button class="add-el" id="add-text" title="A normal text that you wanna give">
+            <i class="fas fa-font"></i>
+            <br>
+            Text
+        </button>
+        <button class="add-el" id="add-ul-list" title="An unordered list is just a list no numbers">
+            <i class="fas fa-list-ul"></i>
+            Unordered List
+        </button>
+        <button class="add-el" id="add-list" title="An ordered list is just a normal list with numbers">
+            <i class="fas fa-list-ol"></i>
+            Ordered List
+        </button>
+        <button class="add-el" id="add-heading"
+            title="A heading that has a large size an adds more meaning to the text that it is main">
+            <i class="fas fa-heading"></i>
+            Heading
+        </button>
+        <button class="add-el" id="add-image" title="Add an image by selecting the file that you want">
+            <i class="fas fa-images"></i><br>
+            Image
+        </button>
+        <button class="add-el" id="add-link" title="Add a link to a website or any page by just giving the url">
+            <i class="fas fa-link"></i><br>
+            Link
+        </button>
+        <button class="add-el">Hello World</button>
+        <button class="add-el">Hello World</button>
+        <button class="add-el">Hello World</button>
+        <button class="add-el">Hello World</button>
+    </div>
+</div>
+
+<div id="container">
+    <div class="el">
+        <button class="add-el" id="open-popup"><i class="fas fa-plus"></i></button>
+    </div>
+</div>
+
+<div id="features">
+    <div class="feature">
+        Type A Font Name and <br> the element will automatically be replaced by it.
+        <form action="">
+            <input type="text" name="fontFamily" placeholder="Font Family">
+        </form>
+    </div>
+    <div class="feature">
+        Type A Size For <br> Your Font and the <br> selected element <br> will automatically <br> be replaced by it.
+        <form action="">
+            <input type="number" name="fontFamily" placeholder="Font Size" min=0 max=50>
+        </form>
+    </div>
+    <div class="feature">
+        Type A Font and <br> the element will automatically be replaced by it.
+        <form action="">
+            <input type="text" name="fontFamily" placeholder="Font Family">
+        </form>
+    </div>
+</div>
+<%- include('includes/footer.ejs') %>

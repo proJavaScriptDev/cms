@@ -8,7 +8,7 @@ h1 {
 }
 
 div#menu {
-	width: 20vw;
+	width: 17vw;
 	height: 100vh;
 	background-color: rgb(2, 85, 85);
 	color: white;
@@ -40,31 +40,117 @@ div#menu .link {
 }
 
 .link a:hover {
-	text-decoration: underline;;-p;
+	text-decoration: underline;
 }
 
-button#create-post{
-    border: 1px solid rgb(204, 200, 200);
-    color: black;
-    display: block;
-    background-color: white;
-    padding: 10px;
-    font-size: 18px;
-    font-family: monospace;
-    cursor: pointer;
-    font-weight: bolder;
-    margin: 0 auto;
+button#create-post {
+	border: 1px solid rgb(204, 200, 200);
+	color: black;
+	display: block;
+	background-color: white;
+	padding: 10px;
+	font-size: 18px;
+	font-family: monospace;
+	cursor: pointer;
+	font-weight: bolder;
+	margin: 0 auto;
 }
 
-button#create-post a{
-    color: black;
-    text-decoration: none;
+button#create-post a {
+	color: black;
+	text-decoration: none;
 }
 
-button#create-post a:hover{
-    text-decoration: underline;
+button#create-post a:hover {
+	text-decoration: underline;
 }
 
-button#create-post:hover{
-    background-color: rgb(222, 224, 191);
+button#create-post:hover {
+	background-color: rgb(222, 224, 191);
+}
+
+div#container {
+	height: 86vh;
+	width: 60vw;
+	border: 5px dashed rgb(180, 175, 175);
+	margin: 30px 190px;
+}
+
+div#features {
+	height: 100vh;
+	width: 19vw;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-left: 1px solid rgb(182, 176, 176);
+}
+
+.feature {
+	font-size: 16px;
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid rgb(194, 191, 191);
+}
+
+.feature form {
+	margin: 5px;
+}
+
+.feature input {
+	padding: 5px;
+	width: 140px;
+}
+
+div.el {
+	height: 70px;
+	width: 80%;
+	border: 5px dashed gray;
+	margin: 15px auto;
+	text-align: center;
+}
+
+.add-el {
+	margin: 5% 0px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	width: 70px;
+	border: 1px solid transparent;
+	padding: 3px;
+	outline: none;
+}
+
+.add-el:hover {
+	border: 1px solid black;
+}
+
+.add-el:focus {
+	border: 1px solid black;
+}
+
+div#popup {
+	display: none;
+	width: 40vw;
+	height: 40vh;
+	padding: 5px;
+	margin: auto;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	background-color: white;
+	text-align: center;
+	overflow: scroll;
+	z-index: 500;
+}
+
+div.main-container {
+	display: none;
+	opacity: 0.4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	z-index: 100;
 }
